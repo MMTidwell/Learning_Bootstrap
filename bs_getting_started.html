@@ -1137,6 +1137,173 @@
 
 <!-- COLLAPSE -->
 		<h1 id="collapse">Collapse</h1>
+
+		<h3>Basic Collapsible</h3>
+		<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#c_demo">Collapsible Button</button>
+		<div id="c_demo" class="collapse">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+
+		<h3>Collapsible on Button Click</h3>
+		<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#c_demo2">Collapsible Button</button>
+		<div id="c_demo2" class="collapse in">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+
+		<h3>Collapsible Panel</h3>
+		<div class="panel-group">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h5 class="panel-title">
+						<a href="#collapse1" data-toggle="collapse">Collapsible panel</a>
+					</h5>
+				</div>
+				<div id="collapse1" class="panel-collapse collapse">
+					<div class="panel-body">Body</div>
+					<div class="panel-footer">Footer</div>
+				</div>
+			</div>
+		</div>
+
+		<h3>Collapsible List Group</h3>
+		<div class="panel-group">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h6 class="panel-title">
+						<a href="#collapse2" data-toggle="collapse">Table of Contents..Maybe</a>
+					</h6> 
+				</div>
+				<div id="collapse2" class="panel-collapse collapse">
+					<ul class="list-group">
+						<li class="list-group-item">uno</li>
+						<li class="list-group-item">dose</li>
+						<li class="list-group-item">3</li>
+					</ul>
+					<div class="panel-footer">Footsies!</div>
+				</div>
+			</div>
+		</div>
+
+		<h3>Accordion Collapse</h3>
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h5 class="panel-title">
+						<a data-parent="#accordion" data-toggle="collapse" href="#collapse3">Accordion 1</a>
+					</h5>
+				</div>
+				<div id="collapse3" class="panel-collapse collapse">
+					<div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h5 class="panel-title">
+						<a data-parent="#accordion" data-toggle="collapse" href="#collapse4">Accordion 2</a>
+					</h5>
+				</div>
+				<div id ="collapse4" class="panel-collapse collapse">
+					<div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h5 class="panel-title">
+						<a data-parent="#accordion" data-toggle="collapse" href="#collapse5">Accordion 3</a>
+					</h5>
+				</div>
+				<div id="collapse5" class="panel-collapse collapse">
+					<div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<h3>Accordion Collapse <em>Style 2</em></h3>
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h5 class="panel-title">
+						<a data-parent="#accordion" data-toggle="collapse" href="#collapse6">Accordion 1</a>
+					</h5>
+				</div>
+				<div id="collapse6" class="panel-collapse collapse">
+					<div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+				</div>
+
+				<div class="panel-heading">
+					<h5 class="panel-title">
+						<a data-parent="#accordion" data-toggle="collapse" href="#collapse7">Accordion 2</a>
+					</h5>
+				</div>
+				<div id ="collapse7" class="panel-collapse collapse">
+					<div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+				</div>
+
+				<div class="panel-heading">
+					<h5 class="panel-title">
+						<a data-parent="#accordion" data-toggle="collapse" href="#collapse8">Accordion 3</a>
+					</h5>
+				</div>
+				<div id="collapse8" class="panel-collapse collapse">
+					<div class="panel-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<br><a href="#top">Back to Top</a>
 		<hr style="border: .5px solid grey">
 
