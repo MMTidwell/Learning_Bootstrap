@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<!-- "width=device-width" - sets the width of the page to follow the screen-width of the device  -->
+	<!-- "initial-scale=1" - sets the initial zoom level when the page is first loaded by the browser -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CDN's -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- TABLE OF CONTENTS -->
+	<div class="container">
+		<div class="list-group" id="top">
+			<h4 class="list-group-item active">Table of Contents</h4>
+			<a href="#grid" class="list-group-item">Grid</a>
+			<a href="#typography" class="list-group-item">Typography</a>
+			<a href="#tables" class="list-group-item">Tables</a>
+			<a href="#images" class="list-group-item">Images</a>
+			<a href="#jumbotron" class="list-group-item">Jumbotron</a>
+			<a href="#wells" class="list-group-item">Wells</a>
+			<a href="#alerts" class="list-group-item">Alerts</a>
+			<a href="#buttons" class="list-group-item">Buttons</a>
+			<a href="#button_groups" class="list-group-item">Button Groups</a>
+			<a href="#glyphicons" class="list-group-item">Glyphicons</a>
+			<a href="#badges_and_labels" class="list-group-item">Badges & Labels</a>
+			<a href="#progress_bars" class="list-group-item">Progress Bars</a>
+			<a href="#pagination" class="list-group-item">Pagination</a>
+			<a href="#pager" class="list-group-item">Pager</a>
+			<a href="#list_groups" class="list-group-item">List Groups</a>
+			<a href="#panels" class="list-group-item">Panels</a>
+			<a href="#dropdowns" class="list-group-item">Dropdowns</a>
+			<a href="#collapse" class="list-group-item">Collapse</a>
+			<a href="#tabs_and_pills" class="list-group-item">Tabs & Pills</a>
+			<a href="#navbar" class="list-group-item">Navbar</a>
+			<a href="#forms" class="list-group-item">Forms</a>
+			<a href="#inputs" class="list-group-item">Inputs</a>
+			<a href="#inputs_2" class="list-group-item">Inputs 2</a>
+			<a href="#input_sizing" class="list-group-item">Input Sizing</a>
+			<a href="#media_objects" class="list-group-item">Media Objects</a>
+			<a href="#carousel" class="list-group-item">Carousel</a>
+			<a href="#modal" class="list-group-item">Modal</a>
+			<a href="#tool_tip" class="list-group-item">Tool Tip</a>
+			<a href="#popover" class="list-group-item">Popover</a>
+			<a href="#scrollspy" class="list-group-item">Scrollspy</a>
+			<a href="#affix" class="list-group-item">Affix</a>
+		</div>
+	</div>
+	<hr style="border: .5px solid grey">
+
+
+<!-- GRID -->
+	<div id="grid"></div>
+	<div class="container">
+		<h1>Grid system:</h1>
+	</div>
+
+	<div class="container" style="border: 1px solid black">
+		<h1><em>class="container"</em></h1>
+	</div>
+
+	<div class="container-fluid" style="border: 1px solid black">
+		<h1><em>class="container-fluid"</em></h1>
+	</div>
+
+	<div class="container">
+		<ul>
+			<li>xs (for phones)</li>
+			<li>sm (for tablets)</li>
+			<li>md (for desktops)</li>
+			<li>lg (for larger desktops)</li>
+		</ul>
+
+		<div class="row">
+			<div class="col-md-1" style="background-color: yellow;"><em>"col-md-1"</em></div>
+			<div class="col-md-2" style="background-color: grey;"><em>"col-md-2"</em></div>
+			<div class="col-md-3" style="background-color: yellow;"><em>"col-md-3"</em></div>
+			<div class="col-md-4" style="background-color: grey;"><em>"col-md-4"</em></div>
+			<div class="col-md-2" style="background-color: yellow;"><em>"col-md-2"</em></div>
+		</div>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- TYPOGRAPHY -->
+		<div id="typography">
+			<h1>Typography:</h1>
+			<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_css_text.asp" target="_blank">Additional info of Typography</a>
+			<h3><em>h3</em> Heading<small>  &ensp; with a <em>smaller</em> secondary text</small></h3>
+			
+			<p>The <mark style="background-color: lightblue"><em>mark tag</em></mark> will highlight the specified text, changing the background-color will change the color of the highlighted area.</p>
+			
+			<p>The <em>abbr tag</em> will make <abbr title="the world health org">this</abbr> happen</p>
+			
+			<p><blockquote>What is a <em>blockquote?</em> This!!! lol</blockquote></p>
+			<p><blockquote class="blockquote-reverse">Did you know that you could do this with a blockquote?? This is done by setting a <em>class="blockquote-reverse"!</em></blockquote></p>
+			
+			<dl> Lets make a list! Using <em>dl, dt, and dd tags!</em>
+				<dt>About what?</dt>
+				<dd>-Oh you know just this and that</dd>
+				<dt>And then...</dt>
+				<dd>-NO MORE AND THEN!</dd>
+				<dt>You know what this looks like</dt>
+				<dd>-Almost like a convo</dd>
+			</dl>
+
+			<p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document. This is done by using the <em>code tag</em></p>
+
+			<p>The <em>kbd tag</em> does something like <kbd>this</kbd> and would be great for areas where documenting something like <kbd>crtl + alt + delete</kbd> </p>
+
+			<pre>
+				Text in a <em>pre tag</em>
+				is displayed in a fixed-width
+				font, and it preserves
+				both      spaces and
+				line breaks. 
+				<em>Note that this does account for the tab indentation before the pre</em>
+			</pre>
+
+			<p class="text-muted">This text is muted.  &ensp;<em>class="text-muted"</em></p>
+			<p class="text-primary">This text is important.  &ensp;<em>class="text-primary"</em></p>
+			<p class="text-success">This text indicates success.  &ensp;<em>class="text-success"</em></p>
+			<p class="text-info">This text represents some information.  &ensp;<em>class="text-info"</em></p>
+			<p class="text-warning">This text represents a warning.  &ensp;<em>class="text-warning"</em></p>
+			<p class="text-danger">This text represents danger.  &ensp;<em>class="text-danger"</em></p>
+
+			<p class="bg-primary">This text is important.   &ensp;<em>class="bg-primary"</em></p>
+			<p class="bg-success">This text indicates success.   &ensp;<em>class="bg-success"</em></p>
+			<p class="bg-info">This text represents some information.   &ensp;<em>class="bg-info"</em></p>
+			<p class="bg-warning">This text represents a warning.   &ensp;<em>class="bg-warning"</em></p>
+			<p class="bg-danger">This text represents danger.   &ensp;<em>class="bg-danger"</em></p>
+
+			<p class="lead"><em>class="lead"</em> makes this paragraph stand out</p>
+			<p class="small"><em>class="small"</em>makes this smaller than its parent</p>
+			
+			<p>Text alignment is done with <em>class="text-left", right, center, justified, nowrap</em></p>
+			
+			<p class="text-uppercase">believe it or not this whole like was written in lowercase. <em>class="text-uppercase"</em> was used to make everything upper. This can also be done in reverse by using <em>class="text-lowercase"</em></p>
+			
+			<p class="text-capitalize"><em>class="text-capitalize"</em> is used to capitalize every word in the section</p>
+
+			<ul class="list-inline"><em>class="list-inline"</em> will display all list items in one like like so:
+				<li>Item1</li>
+				<li>Item2</li>
+				<li>Item3</li>
+			</ul>
+		</div>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- TABLES -->
+		<h1 id="tables">Tables</h1>
+		<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_css_tables.asp" target="_blank">Additional info about Tables</a>
+
+		<h3>Basic Table</h3>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mittsy</td>
+					<td>Tidwell</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Tim</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Marley</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Belle</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Basic Table with Stripes</h3>
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mittsy</td>
+					<td>Tidwell</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Tim</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Marley</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Belle</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Basic Table with Border</h3>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mittsy</td>
+					<td>Tidwell</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Tim</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Marley</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Belle</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Basic Table with Hover</h3>
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mittsy</td>
+					<td>Tidwell</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Tim</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Marley</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Belle</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h3>Basic Table Condensed <small><em>&ensp; Cuts cell padding in half</em></small></h3>
+		<table class="table table-condensed">
+			<thead>
+				<tr>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mittsy</td>
+					<td>Tidwell</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Tim</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Marley</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+				<tr>
+					<td>Belle</td>
+					<td>Kessler</td>
+					<td>something@something.com</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table class="table">
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Command</th>
+			</tr>
+		</thead>
+		<tbody>    
+			<tr class="success">
+				<td>Success</td>
+				<td><em>class="success"</em></td>
+			</tr>
+			<tr class="danger">
+				<td>Danger</td>
+				<td><em>class="danger"</em></td>
+			</tr>
+			<tr class="info">
+				<td>Info</td>
+				<td><em>class="info"</em></td>
+			</tr>
+			<tr class="warning">
+				<td>Warning</td>
+				<td><em>class="warning"</em></td>
+			</tr>
+			<tr class="active">
+				<td>Active</td>
+				<td><em>class="active"</em></td>
+			</tr>
+			</tbody>
+		</table>
+
+		<h3>Basic Table - Responsive</h3>
+		<table class="table table-responsive">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Age</th>
+					<th>City</th>
+					<th>Country</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Anna</td>
+					<td>Pitt</td>
+					<td>35</td>
+					<td>New York</td>
+					<td>USA</td>
+				</tr>
+			</tbody>
+		</table>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- IMAGES -->
+		<h1 id="images">Images</h1>
+		<p><a href="https://www.w3schools.com/bootstrap/bootstrap_ref_css_images.asp" target="_blank">Additional info about Images</a></p><br><br>
+
+		<p>The <em>class="img-rounded"</em> give a image rounded corners</p>
+		<img src="daddy_tid.jpg" class="img-rounded" width="304" height="236"><br><br><br>
+
+		<p>The <em>class="img-circle"</em> will make the image round </p>
+		<img src="daddy_tid.jpg" class="img-circle" width="304" height="236"><br><br><br>
+
+		<p>The <em>class="img-thumbnail"</em> will turn the image into a thumbnail</p>
+		<img src="daddy_tid.jpg" class="img-thumbnail" width="304" height="236"><br><br><br>
+
+		<p>The <em>class="img-responsive"</em> will take the image and size it to the parent element</p>
+		<img src="daddy_tid.jpg" class="img-responsive" width="800" height="600"><br><br><br>
+
+		<h3>Gallery Image Display</h3>
+		<div class="row">
+			<div class="col-md-4">
+			  	<div class="thumbnail">
+			    	<a href="/w3images/lights.jpg" target="_blank">
+			      		<img src="daddy_tid.jpg" alt="Lights" style="width:100%">
+			      		<div class="caption">
+			      		  	<p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+			      		</div>
+			    	</a>
+			  	</div>
+			</div>
+			<div class="col-md-4">
+			  	<div class="thumbnail">
+			    	<a href="/w3images/nature.jpg" target="_blank">
+			      		<img src="daddy_tid.jpg" alt="Nature" style="width:100%">
+			      		<div class="caption">
+			        		<p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+			      		</div>
+			    	</a>
+			  	</div>
+			</div>
+			<div class="col-md-4">
+			  	<div class="thumbnail">
+			    	<a href="/w3images/fjords.jpg" target="_blank">
+			      		<img src="daddy_tid.jpg" alt="Fjords" style="width:100%">
+			      		<div class="caption">
+			        		<p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+			      		</div>
+			    	</a>
+			  	</div>
+			</div>
+		</div>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- JUMBOTRON -->
+		<h1 id="jumbotron">Jumbotron</h1>
+		<div class="jumbotron">
+			<h1>Jumbotron inside of a container</h1>
+			<p>The jumbotron is created when <em>class="jumbotron"</em> is inside the jumbotron div.</p>
+		</div>
+	</div> <!-- closing div for the container holding all of the examples -->
+
+	<div class="jumbotron">
+		<h1>Jumbotron outside of a container</h1>
+		<p>This will span the entire page</p>
+	</div>
+
+	<div class="container">
+		<div class="page-header">
+			<h1>This is a page header</h1>
+			<p>Which is created by using <em>class="page-header"</em></p>
+		</div>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- WELLS -->
+		<h1 id="wells">Wells</h1>
+		<div class="well well-sm">
+			Well size changed by using <em>class="well well-sm"</em>
+		</div>
+
+		<div class="well">
+			Basic well using <em>class="well"</em>
+		</div>
+
+		<div class="well well-lg">
+			Well size changed by using <em>class="well well-lg"</em>
+		</div>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- ALERTS -->
+		<h1 id="alerts">Alerts</h1>
+		<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_js_alert.asp" target="_blank">Additional info about Alerts</a> <br><br>
+		
+		<h3>Basic Alerts</h3>
+		<div class="alert alert-success">
+			This is the success alert. This alert was created using <em>class="alert alert-success"</em>
+		</div>
+		<div class="alert alert-info">
+			This is the info alert. This alert was created using <em>class="alert alert-info"</em>
+		</div>
+		<div class="alert alert-warning">
+			This is the warning alert. This alert was created using <em>class="alert alert-warning"</em>
+		</div>
+		<div class="alert alert-danger">
+			This is the danger alert. This alert was created using <em>class="alert alert-danger"</em>
+		</div>
+
+		<h3>Alerts with Links</h3>
+		<div class="alert alert-success">
+			This is the success alert. This alert was created using <a href="#" class="alert-link"><em>class="alert alert-success", and class="alert-link" inside of the anchor tab</em></a>
+		</div>
+		<div class="alert alert-info">
+			This is the info alert. This alert was created using <a href="#" class="alert-link"><em>class="alert alert-info", and class="alert-link" inside of the anchor tab</em></a>
+		</div>
+		<div class="alert alert-warning">
+			This is the warning alert. This alert was created using <a href="#" class="alert-link"><em>class="alert alert-warning", and class="alert-link" inside of the anchor tab</em></a>
+		</div>
+		<div class="alert alert-danger">
+			This is the danger alert. This alert was created using <a href="#" class="alert-link"><em>class="alert alert-danger", and class="alert-link" inside of the anchor tab</em></a>
+		</div>
+
+		<h3>Closing Alerts</h3>
+		<div class="alert alert-success alert-dismissable">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+			This is the success alert. This alert was created using <em>class="alert alert-success"</em> <br>
+			The closing part was created by a anchor tag with <em>class="close", data-dismiss="alert", and aria-label="close"</em>
+		</div>
+		<div class="alert alert-info alert-dismissable">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+			This is the info alert. This alert was created using <em>class="alert alert-info"</em> <br>
+			The closing part was created by a anchor tag with <em>class="close", data-dismiss="alert", and aria-label="close"</em>
+		</div>
+		<div class="alert alert-warning alert-dismissable">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+			This is the warning alert. This alert was created using <em>class="alert alert-warning"</em> <br>
+			The closing part was created by a anchor tag with <em>class="close", data-dismiss="alert", and aria-label="close"</em>
+		</div>
+		<div class="alert alert-danger alert-dismissable">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+			This is the danger alert. This alert was created using <em>class="alert alert-danger"</em> <br>
+			The closing part was created by a anchor tag with <em>class="close", data-dismiss="alert", and aria-label="close"</em>
+		</div>
+
+		<h3>Animated Alerts</h3>
+		<div class="alert alert-success alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+			This is the success alert. This alert was created using <em>class="alert alert-success"</em>.<br>
+			<em>class="fade in"</em> was also used in the div to create a animated fade when closing the alert. <br>
+			The closing part was created by a anchor tag with <em>class="close", data-dismiss="alert", and aria-label="close"</em>
+		</div>
+		<div class="alert alert-info alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+			This is the info alert. This alert was created using <em>class="alert alert-info"</em>.<br>
+			<em>class="fade in"</em> was also used in the div to create a animated fade when closing the alert. <br>
+			The closing part was created by a anchor tag with <em>class="close", data-dismiss="alert", and aria-label="close"</em>
+		</div>
+		<div class="alert alert-warning alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+			This is the warning alert. This alert was created using <em>class="alert alert-warning"</em>.<br>
+			<em>class="fade in"</em> was also used in the div to create a animated fade when closing the alert. <br>
+			The closing part was created by a anchor tag with <em>class="close", data-dismiss="alert", and aria-label="close"</em>
+		</div>
+		<div class="alert alert-danger alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">x</a>
+			This is the danger alert. This alert was created using <em>class="alert alert-danger"</em>.<br>
+			<em>class="fade in"</em> was also used in the div to create a animated fade when closing the alert. <br>
+			The closing part was created by a anchor tag with <em>class="close", data-dismiss="alert", and aria-label="close"</em>
+		</div>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- BUTTONS -->
+		<h1 id="buttons">Buttons</h1>
+		<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_css_buttons.asp" target="_blank">Additional info for Buttons</a> <br>
+
+		<h3>Button Styles</h3>
+		<button type="button" class="btn"><em>type="button" class="btn"</em></button>
+		<button type="button" class="btn btn-default"><em>type="button" class="btn btn-default"</em></button>
+		<button type="button" class="btn btn-primary"><em>type="button" class="btn btn-primary"</em></button>
+		<button tyoe="button" class="btn btn-success"><em>type="button" class="btn btn-success"</em></button>
+		<button tyoe="button" class="btn btn-info"><em>type="button" class="btn btn-info"</em></button>
+		<button tyoe="button" class="btn btn-warning"><em>type="button" class="btn btn-warning"</em></button>
+		<button tyoe="button" class="btn btn-danger"><em>type="button" class="btn btn-danger"</em></button>
+		<button tyoe="button" class="btn btn-link"><em>type="button" class="btn btn-link"</em></button>
+
+		<h3>Buttons used in different tags</h3>
+		<a href="#" class="btn btn-sucess" role="button">Anchor tag with <em>class="btn btn-sucess" role="button"</em></a>
+		<button class="btn btn-default">Button tag with <em>class="btn btn-default</em></button>
+		<input type="button" class="btn btn-info" value="Input Button">
+		<input type="submit" class="btn btn-danger" value="Submit Button">
+
+		<h3>Button Size</h3>
+		<button type="button" class="btn btn-primary btn-xs">class="btn btn-primary btn-xs"</button>
+		<button type="button" class="btn btn-primary btn-sm">class="btn btn-primary btn-sm"</button>
+		<button type="button" class="btn btn-primary btn-md">class="btn btn-primary btn-md"</button>
+		<button type="button" class="btn btn-primary btn-lg">class="btn btn-primary btn-lg"</button>
+
+		<h3>Block Level Buttons with Sizes</h3>
+		<button type="button" class="btn btn-primary btn-block btn-sm"><em>class="btn btn-primary btn-block btn-sm"</em></button>
+		<button type="button" class="btn btn-primary btn-block"><em>class="btn btn-primary btn-block"</em></button>
+		<button type="button" class="btn btn-primary btn-block btn-lg"><em>class="btn btn-primary btn-block btn-lg"</em></button>
+
+		<h3>Active/Disabled Buttons</h3>
+		<button type="button" class="btn btn-primary active"><em>class="btn btn-primary active"</em></button>
+		<button type="button" class="btn btn-primary disabled"><em>class="btn btn-primary disabled"</em></button>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- BUTTON GROUPS -->
+		<h1 id="button_groups">Button Groups</h1> <br>
+
+		<h3>Basic Button Groups and Sizes</h3>
+		<div class="btn-group btn-group-xs">
+			<button type="button" class="btn btn-danger"><em>class="btn-group btn-group-xs"</em></button>
+			<button type="button" class="btn btn-warning"><em>class="btn-group btn-group-xs"</em></button>
+			<button type="button" class="btn btn-success"><em>class="btn-group btn-group-xs"</em></button>
+		</div>
+		<div class="btn-group btn-group-sm">
+			<button type="button" class="btn btn-danger"><em>class="btn-group btn-group-sm"</em></button>
+			<button type="button" class="btn btn-warning"><em>class="btn-group btn-group-sm"</em></button>
+			<button type="button" class="btn btn-success"><em>class="btn-group btn-group-sm"</em></button>
+		</div>
+		<div class="btn-group">
+			<button type="button" class="btn btn-danger"><em>class="btn-group"</em></button>
+			<button type="button" class="btn btn-warning"><em>class="btn-group"</em></button>
+			<button type="button" class="btn btn-success"><em>class="btn-group"</em></button>
+		</div>
+		<div class="btn-group btn-group-lg">
+			<button type="button" class="btn btn-danger"><em>class="btn-group btn-group-lg"</em></button>
+			<button type="button" class="btn btn-warning"><em>class="btn-group btn-group-lg"</em></button>
+			<button type="button" class="btn btn-success"><em>class="btn-group btn-group-lg"</em></button>
+		</div>
+
+		<h3>Vertical Button Group</h3>
+		<div class="btn-group-vertical btn-group-xs">
+			<button type="button" class="btn btn-danger">Parent div is set to <em>class="btn-group-vertical btn-group-xs"</em><br>while the button tag is set to <em>class="btn-group btn-group-xs"</em></button>
+			<button type="button" class="btn btn-warning">Parent div is set to <em>class="btn-group-vertical btn-group-xs"</em><br>while the button tag is set to <em>class="btn-group btn-group-xs"</em></button>
+			<button type="button" class="btn btn-success">Parent div is set to <em>class="btn-group-vertical btn-group-xs"</em><br>while the button tag is set to <em>class="btn-group btn-group-xs"</em></button>
+		</div>
+		<div class="btn-group-vertical btn-group-sm">
+			<button type="button" class="btn btn-danger">Parent div is set to <em>class="btn-group-vertical btn-group-sm"</em><br>while the button tag is set to <em>class="btn-group btn-group-sm"</em></button>
+			<button type="button" class="btn btn-warning">Parent div is set to <em>class="btn-group-vertical btn-group-sm"</em><br>while the button tag is set to <em>class="btn-group btn-group-sm"</em></button>
+			<button type="button" class="btn btn-success">Parent div is set to <em>class="btn-group-vertical btn-group-sm"</em><br>while the button tag is set to <em>class="btn-group btn-group-sm"</em></button>
+		</div>
+		<div class="btn-group-vertical">
+			<button type="button" class="btn btn-danger">Parent div is set to <em>class="btn-group-vertical"</em><br>while the button tag is set to <em>class="btn-group"</em></button>
+			<button type="button" class="btn btn-warning">Parent div is set to <em>class="btn-group-vertical"</em><br>while the button tag is set to <em>class="btn-group"</em></button>
+			<button type="button" class="btn btn-success">Parent div is set to <em>class="btn-group-vertical"</em><br>while the button tag is set to <em>class="btn-group"</em></button>
+		</div>
+		<div class="btn-group-vertical btn-group-lg">
+			<button type="button" class="btn btn-danger">Parent div is set to <em>class="btn-group-vertical btn-group-lg"</em><br>while the button tag is set to <em>class="btn-group btn-group-lg"</em></button>
+			<button type="button" class="btn btn-warning">Parent div is set to <em>class="btn-group-vertical btn-group-lg"</em><br>while the button tag is set to <em>class="btn-group btn-group-lg"</em></button>
+			<button type="button" class="btn btn-success">Parent div is set to <em>class="btn-group-vertical btn-group-lg"</em><br>while the button tag is set to <em>class="btn-group btn-group-lg"</em></button>
+		</div>
+
+		<h3>Justified Button Group</h3>
+		<div class="btn-group-xs btn-group-justified">
+			<a href="#" class="btn btn-primary">Parent div is set to <em>class="btn-group-xs btn-group-justified"</em><br>while the anchor tag is set to <em>class="btn btn-primary"</em></a>
+			<a href="#" class="btn btn-primary">Parent div is set to <em>class="btn-group-xs btn-group-justified"</em><br>while the anchor tag is set to <em>class="btn btn-primary"</em></a>
+			<a href="#" class="btn btn-primary">Parent div is set to <em>class="btn-group-xs btn-group-justified"</em><br>while the anchor tag is set to <em>class="btn btn-primary"</em></a>
+		</div>
+		<div class="btn-group-sm btn-group-justified">
+			<a href="#" class="btn btn-primary">Parent div is set to <em>class="btn-group-sm btn-group-justified"</em><br>while the anchor tag is set to <em>class="btn btn-primary"</em></a>
+			<a href="#" class="btn btn-primary">Parent div is set to <em>class="btn-group-sm btn-group-justified"</em><br>while the anchor tag is set to <em>class="btn btn-primary"</em></a>
+			<a href="#" class="btn btn-primary">Parent div is set to <em>class="btn-group-sm btn-group-justified"</em><br>while the anchor tag is set to <em>class="btn btn-primary"</em></a>
+		</div>
+		<div class="btn-group btn-group-justified">
+			<a href="#" class="btn btn-primary">Parent div is set to <em>class="btn-group btn-group-justified"</em><br>while the anchor tag is set to <em>class="btn btn-primary"</em></a>
+			<a href="#" class="btn btn-primary">Parent div is set to <em>class="btn-group btn-group-justified"</em><br>while the anchor tag is set to <em>class="btn btn-primary"</em></a>
+			<a href="#" class="btn btn-primary">Parent div is set to <em>class="btn-group btn-group-justified"</em><br>while the anchor tag is set to <em>class="btn btn-primary"</em></a>
+		</div>
+		<div class="btn-group-lg btn-group-justified">
+			<a href="#" class="btn btn-primary">Parent div is set to <em>class="btn-group-lg btn-group-justified"</em><br>while the anchor tag is set to <em>class="btn btn-primary"</em></a>
+			<a href="#" class="btn btn-primary">Parent div is set to <em>class="btn-group-lg btn-group-justified"</em><br>while the anchor tag is set to <em>class="btn btn-primary"</em></a>
+			<a href="#" class="btn btn-primary">Parent div is set to <em>class="btn-group-lg btn-group-justified"</em><br>while the anchor tag is set to <em>class="btn btn-primary"</em></a>
+		</div>
+
+		<h3>Nesting Button Groups & Dropdown Menus</h3>
+		<div class="btn-group">
+			<button type="button" class="btn btn-primary">Link</button>
+			<button type="button" class="btn btn-primary">Link</button>
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					Dropdown
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">Drop 1</a></li>
+					<li><a href="#">Drop 2</a></li>
+					<li><a href="#">Drop 3</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<h3>Split Button Dropdown</h3>
+		<div class="btn-group">
+			<button type="button" class="btn btn-primary">Dropdown</button>
+			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu">
+				<li><a href="#">Drop 1</a></li>
+				<li><a href="#">Drop 2</a></li>
+				<li><a href="#">Drop 3</a></li>
+			</ul>
+		</div>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+		
+<!-- GLYPHICONS -->
+		<h1 id="glyphicons">Glyphicons</h1>
+		<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp" target="_blank">Additional info for Glyphicons</a>
+
+		<h3>Glyphicons</h3>
+		<p>Simple glyphicon <span class="glyphicon glyphicon-envelope"></span></p>
+		<p>Linked glyphicon <a href="#"><span class="glyphicon glyphicon-link"></span></a></p>
+		<p>Search glyphicon <button type="button" class="btn btn-default glyphicon glyphicon-search"></button></p>
+		<p>Styled button glyphicon <button type="button" class="btn btn-info glyphicon glyphicon-send"></button></p>
+		<p>Print glyphicon styled <a href="#" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-print"></span>
+			Print
+		</a></p>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- BADGES AND LABELS -->
+		<h1 id="badges_and_labels">Badges & Labels</h1><br>
+
+		<h3>Basic Badge</h3>
+		<a href="#">Badge <span class="badge">5</span></a><br>
+		<a href="#">Badge <span class="badge">10</span></a><br>
+		<a href="#">Badge <span class="badge">7</span></a>
+
+		<h3>Button Badge</h3>
+		<button type="button" class="btn btn-primary">Primary <span class="badge">6</span></button>
+
+		<h3>Labels</h3>
+		<h4>h4 <span class="label label-default">Label</span></h4>
+	
+		<h3>Label Classes</h3>
+		<span class="label label-default"><em>class="label label-default"</em></span>
+		<span class="label label-primary"><em>class="label label-primary"</em></span>
+		<span class="label label-success"><em>class="label label-success"</em></span>
+		<span class="label label-info"><em>class="label label-info"</em></span>
+		<span class="label label-warning"><em>class="label label-warning"</em></span>
+		<span class="label label-danger"><em>class="label label-danger"</em></span>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- PROGRESS BAR -->
+		<h1 id="progress_bars">Progress Bar</h1><br>
+
+		<h3>Basic Progress Bar</h3>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" aria-*="70" aria-*="0" aria-*="100" style="width: 70%">
+				<span class="sr-olny"><em>class="progress-bar" role="progressbar" aria-*="70" aria-*="0" aria-*="100" style="width: 70%"</em></span>
+			</div>
+		</div>
+
+		<h3>Colored Progress Bars</h3>
+		<div class="progress">
+			<div class="progress-bar progress-bar-success" role="progressbar" aria-*="30" aria-*="0" aria-*="100" style="width: 30%">
+				<span class="sr-olny">30%</span>
+			</div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-info" role="progressbar" aria-*="60" aria-*="0" aria-*="100" style="width: 60%">
+				<span class="sr-olny">60%</span>
+			</div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-warning" role="progressbar" aria-*="90" aria-*="0" aria-*="100" style="width: 90%">
+				<span class="sr-olny">90%</span>
+			</div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-danger" role="progressbar" aria-*="100" aria-*="0" aria-*="100" style="width: 100%">
+				<span class="sr-olny">100%</span>
+			</div>
+		</div>
+
+		<h3>Striped Progress Bars</h3>
+		<div class="progress">
+			<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-*="30" aria-*="0" aria-*="100" style="width: 30%">
+				<span class="sr-olny">30%</span>
+			</div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-*="60" aria-*="0" aria-*="100" style="width: 60%">
+				<span class="sr-olny">60%</span>
+			</div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-*="90" aria-*="0" aria-*="100" style="width: 90%">
+				<span class="sr-olny">90%</span>
+			</div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-*="100" aria-*="0" aria-*="100" style="width: 100%">
+				<span class="sr-olny">100%</span>
+			</div>
+		</div>
+
+		<h3>Animated Progress Bars</h3>
+		<div class="progress">
+			<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-*="30" aria-*="0" aria-*="100" style="width: 30%">
+				<span class="sr-olny">30%</span>
+			</div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-*="60" aria-*="0" aria-*="100" style="width: 60%">
+				<span class="sr-olny">60%</span>
+			</div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-*="90" aria-*="0" aria-*="100" style="width: 90%">
+				<span class="sr-olny">90%</span>
+			</div>
+		</div>
+		<div class="progress">
+			<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-*="100" aria-*="0" aria-*="100" style="width: 100%">
+				<span class="sr-olny">100%</span>
+			</div>
+		</div>
+
+		<h3>Stacked Progress Bars</h3>
+		<div class="progress">
+			<div class="progress-bar progress-bar-success" role="progressbar" style="width: 40%">Free Space</div>
+			<div class="progress-bar progress-bar-warning" role="progressbar" style="width: 10%">Warning</div>
+			<div class="progress-bar progress-bar-danger" role="progressbar" style="width: 20%">Danger</div>
+		</div>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- PAGINATION -->
+		<h1 id="pagination">Pagination</h1>
+		<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_comp_navs.asp" target="_blank">Additional info for Pagination</a>
+
+		<h3>Basic Pagination</h3>
+		<ul class="pagination">
+			<li><a href="#"><em>class="pagination"</em></a></li>
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li><a href="#">6</a></li>
+		</ul>
+
+		<h3>Active State Pagination</h3>
+		<ul class="pagination">
+			<li class="active"><a href="#"><em>class="active"</em></a></li>
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+		</ul>
+
+		<h3>Disabled State Pagination</h3>
+		<ul class="pagination">
+			<li class="disabled"><a href="#"><em>class="disabled"</em></a></li>
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+		</ul>
+
+		<h3>Pagination Sizing</h3>
+		<ul class="pagination pagination-sm">
+			<li><a href="#"><em>class="pagination pagination-sm</em></a></li>
+			<li><a href="#"><em>class="pagination pagination-sm</em></a></li>
+			<li><a href="#"><em>class="pagination pagination-sm</em></a></li>
+		</ul>
+		<ul class="pagination pagination">
+			<li><a href="#"><em>class="pagination pagination</em></a></li>
+			<li><a href="#"><em>class="pagination pagination</em></a></li>
+			<li><a href="#"><em>class="pagination pagination</em></a></li>
+		</ul>
+		<ul class="pagination pagination-lg">
+			<li><a href="#"><em>class="pagination pagination-lg</em></a></li>
+			<li><a href="#"><em>class="pagination pagination-lg</em></a></li>
+			<li><a href="#"><em>class="pagination pagination-lg</em></a></li>
+		</ul>
+
+		<h3>Breadcrumbs</h3>
+		<ul class="breadcrumb">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Private</a></li>
+			<li class="active"><a href="#">Pictures</a></li>
+		</ul>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+		
+<!-- PAGER -->
+		<h1 id="pager">Pager</h1>
+		<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_comp_navs.asp">Additional info for Pager</a>
+
+		<h3>Basic Pager</h3>
+		<ul class="pager">
+			<li><a href="#">Previous</a></li>
+			<li><a href="#">Next</a></li>
+		</ul>
+
+		<h3>Align Pager Buttons</h3>
+		<ul class="pager">
+			<li class="previous"><a href="#">Previous</a></li>
+			<li class="next"><a href="#">Next</a></li>
+		</ul>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- LIST GROUPS -->
+		<h1 id="list_groups">List Groups</h1><br>
+
+		<h3>Basic LIst Groups</h3>
+		<ul class="list-group">
+			<li class="list-group-item">First</li>
+			<li class="list-group-item">Second</li>
+			<li class="list-group-item">Third</li>
+		</ul>
+
+		<h3>List Group with Badges</h3>
+		<ul class="list-group">
+			<li class="list-group-item">New <span class="badge">12</span></li>
+			<li class="list-group-item">Deleted <span class="badge">100</span></li>
+			<li class="list-group-item">warning <span class="badge">5</span></li>
+		</ul>
+
+		<h3>List Group with Links</h3>
+		<ul class="list-group">
+			<a href="#" class="list-group-item">1</a>
+			<a href="#" class="list-group-item">2</a>
+			<a href="#" class="list-group-item">3</a>
+		</ul>
+
+		<h3>List Group with Active State</h3>
+		<ul class="list-group">
+			<a href="#" class="list-group-item active">1</a>
+			<a href="#" class="list-group-item">2</a>
+			<a href="#" class="list-group-item">3</a>
+		</ul>
+
+		<h3>List Group with Disabled State</h3>
+		<ul class="list-group">
+			<a href="#" class="list-group-item disabled">1</a>
+			<a href="#" class="list-group-item">2</a>
+			<a href="#" class="list-group-item">3</a>
+		</ul>
+
+		<h3>List Group with Contextual Classes</h3>
+		<ul class="list-group">
+			<a href="#" class="list-group-item list-group-item-success">Success</a>
+			<a href="#" class="list-group-item list-group-item-info">Info</a>
+			<a href="#" class="list-group-item list-group-item-warning">Warning</a>
+			<a href="#" class="list-group-item list-group-item-danger">Danger</a>
+		</ul>
+
+		<h3>List Group with Custom Content</h3>
+		<div class="list-group">
+			<a href="#" class="list-group-item active">
+      			<h4 class="list-group-item-heading">First List Group Item Heading</h4>
+      			<p class="list-group-item-text">List Group Item Text</p>
+    		</a>
+   			<a href="#" class="list-group-item">
+		      	<h4 class="list-group-item-heading">Second List Group Item Heading</h4>
+		      <p class="list-group-item-text">List Group Item Text</p>
+		    </a>
+    		<a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">Third List Group Item Heading</h4>
+				<p class="list-group-item-text">List Group Item Text</p>
+    		</a>
+  		</div>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- PANELS -->
+		<h1 id="panels">Panels</h1><br>
+
+		<h3>Basic Panel</h3>
+		<div class="panel panel-default">
+			<div class="panel-body">Parent div: <em>class="panel panel-default"</em>, Child div: <em>class="panel-body"</em></div>
+		</div>
+
+		<h3>Panel Heading</h3>
+		<div class="panel panel-default">
+			<div class="panel-heading"><em>class="panel-heading"</em></div>
+			<div class="panel-body"><em>class="panel-body"</em></div>
+		</div>
+
+		<h3>Panel Footer</h3>
+		<div class="panel panel-default">
+			<div class="panel-body"><em>class="panel-body"</em></div>
+			<div class="panel-footer"><em>class="panel-footer"</em></div>
+		</div>
+
+		<h3>Panel Group</h3>
+		<div class="panel-group">
+			<div class="panel panel-default">
+				<div class="panel-body">Panel Content</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-body">Panel Content</div>
+			</div>
+		</div>
+
+		<h3>Panel with Contextual Classes</h3>
+		<div class="panel-group">
+			<div class="panel panel-default">
+				<div class="panel-heading">Panel with panel-default class</div>
+				<div class="panel-body">Panel Content</div>
+			</div>
+
+			<div class="panel panel-primary">
+				<div class="panel-heading">Panel with panel-primary class</div>
+				<div class="panel-body">Panel Content</div>
+			</div>
+
+			<div class="panel panel-success">
+				<div class="panel-heading">Panel with panel-success class</div>
+				<div class="panel-body">Panel Content</div>
+			</div>
+
+			<div class="panel panel-info">
+				<div class="panel-heading">Panel with panel-info class</div>
+				<div class="panel-body">Panel Content</div>
+			</div>
+
+			<div class="panel panel-warning">
+				<div class="panel-heading">Panel with panel-warning class</div>
+				<div class="panel-body">Panel Content</div>
+			</div>
+
+			<div class="panel panel-danger">
+				<div class="panel-heading">Panel with panel-danger class</div>
+				<div class="panel-body">Panel Content</div>
+			</div>
+		</div>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- DROPDOWN -->
+		<h1 id="dropdowns">Dropdown</h1>
+		<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_js_dropdown.asp">Additional info for Dropdowns</a>
+
+		<h3>Basic Dropdown</h3>
+		<div class="dropdown">
+			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+				Dropdown
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">Bootstrap</a></li>
+			</ul>
+		</div>
+
+		<h3>Dropdown with Divider</h3>
+		<div class="dropdown">
+			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+				Dropdown
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">Bootstrap</a></li>
+				<li class="divider"></li>
+				<li><a href="#">JavaScript</a></li>
+			</ul>
+		</div>
+
+		<h3>Dropdown Header</h3>
+		<div class="dropdown">
+			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+				Dropdown
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li class="dropdown-header">Front End</li>
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">Bootstrap</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Back End</li>
+				<li><a href="#">Python</a></li>
+				<li><a href="#">PHP</a></li>
+				<li><a href="#">Java</a></li>
+			</ul>
+		</div>
+
+		<h3>Disable & Active Items</h3>
+		<div class="dropdown">
+			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+				Drops
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><a href="#">Normal</a></li>
+				<li class="active"><a href="#">Active</a></li>
+				<li class="disabled"><a href="#">Disabled</a></li>
+			</ul>
+		</div>
+
+		<h3>Dropdown Position</h3>
+		<div class="dropdown">
+			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+				Dropping Like its still hot to say this...
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu dropdown-menu-right">
+				<li class="dropdown-header">Front End</li>
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">Bootstrap</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Back End</li>
+				<li><a href="#">Python</a></li>
+				<li><a href="#">PHP</a></li>
+				<li><a href="#">Java</a></li>
+			</ul>
+		</div>
+
+		<h3>Dropup</h3>
+		<div class="dropup">
+			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+				Dropping Like its still hot to say this...
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li class="dropdown-header">Front End</li>
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">Bootstrap</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">Back End</li>
+				<li><a href="#">Python</a></li>
+				<li><a href="#">PHP</a></li>
+				<li><a href="#">Java</a></li>
+			</ul>
+		</div>
+
+		<h3>Dropdown Accessibility</h3>
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+				Screen Reader Dropdown
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+				<li role="presentation"><a role="menuitem" href="#">HTML</a></li>
+				<li role="presentation"><a role="menuitem" href="#">CSS</a></li>
+				<li role="presentation"><a role="menuitem" href="#">Bootstrap</a></li>
+				<li role="presentation"><a role="menuitem" href="#">JS</a></li>
+				<li role="presentation" class="divider"></li>
+				<li role="presentation"><a role="menuitem" href="#">Java</a></li>
+			</ul>
+		</div>
+
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- COLLAPSE -->
+		<h1 id="collapse">Collapse</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- TABS/PILLS -->
+		<h1 id="tabs_and_pills">Tabs and Pills</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- NAVBAR -->
+		<h1 id="navbar">Navbar</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- FORMS -->
+		<h1 id="forms">Forms</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- INPUTS -->
+		<h1 id="inputs">Inputs</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- INPUTS 2 -->
+		<h1 id="inputs_2">Inputs 2</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- INPUT SIZING -->
+		<h1 id="input_sizing">Input Sizing</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- MEDIA OBJECTS -->
+		<h1 id="media_objects">Media Objects</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- CAROUSEL -->
+		<h1 id="carousel">Carousel</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- MODAL -->
+		<h1 id="modal">Modal</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- TOOL TIP -->
+		<h1 id="tool_tip">Tool Tip</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- POPOVER -->
+		<h1 id="popover">Popover</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- SCROLLSPY -->
+		<h1 id="scrollspy">Scrollspy</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+<!-- AFFIX -->
+		<h1 id="affix">Affix</h1>
+		<br><a href="#top">Back to Top</a>
+		<hr style="border: .5px solid grey">
+
+	</div> <!-- closing div for the container holding all of the examples -->
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
