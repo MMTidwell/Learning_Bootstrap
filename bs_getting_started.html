@@ -35,7 +35,7 @@
 			<a href="#panels" class="list-group-item">Panels</a>
 			<a href="#dropdowns" class="list-group-item">Dropdowns</a>
 			<a href="#collapse" class="list-group-item">Collapse</a>
-			<a href="#tabs_and_pills" class="list-group-item">Tabs & Pills</a>
+			<a href="#pills_and_pills" class="list-group-item">Tabs & Pills</a>
 			<a href="#navbar" class="list-group-item">Navbar</a>
 			<a href="#forms" class="list-group-item">Forms</a>
 			<a href="#inputs" class="list-group-item">Inputs</a>
@@ -51,7 +51,6 @@
 		</div>
 	</div>
 	<hr style="border: .5px solid grey">
-
 
 <!-- GRID -->
 	<div id="grid"></div>
@@ -1303,12 +1302,194 @@
 				</div>
 			</div>
 		</div>
-
 		<br><a href="#top">Back to Top</a>
 		<hr style="border: .5px solid grey">
 
 <!-- TABS/PILLS -->
 		<h1 id="tabs_and_pills">Tabs and Pills</h1>
+		<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_comp_navs.asp" target="_blank">Additional info for Bootstraps Navigation Ref</a><br>
+		<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_js_tab.asp" target="_blank">Additional info forBootstraps JS Tab Ref</a><br>
+
+		<h3>Menus</h3>
+		<ul class="list-inline">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">FAQ</a></li>
+		</ul>
+
+		<h3>Tabs</h3>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#">Active Tab</a></li>
+			<li><a href="#">List</a></li>
+			<li><a href="#">Tab</a></li>
+			<li><a href="#">Menu</a></li>
+		</ul>
+
+		<h3>Tabs with Dropdowns</h3>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#">Home</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
+					<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Desks</a></li>
+					<li><a href="#">Computers</a></li>
+					<li><a href="#">Monitors</a></li>
+				</ul>
+			</li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Social</a></li>
+		</ul>
+
+		<h3>Pills</h3>
+		<ul class="nav nav-pills">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">People</a></li>
+			<li><a href="#">IDK</a></li>
+		</ul>
+
+		<h3>Vertical Pills</h3>
+		<ul class="nav nav-pills nav-stacked">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">All links</a></li>
+			<li><a href="#">Send you to</a></li>
+			<li><a href="#">The top</a></li>
+		</ul>
+
+		<h3>Vertical Pills in a Row</h3>
+		<div class="col-md-3 col-md-offset-9">
+			<ul class="nav nav-pills nav-stacked">
+				<li class="active"><a href="#">My Eyes</a></li>
+				<li><a href="#">Feel Like they are</a></li>
+				<li><a href="#">Bleeding!</a></li>
+			</ul>
+		</div>
+
+		<h3>Pills with Dropdown Menu</h3>
+		<ul class="nav nav-pills nav-stacked">
+			<li class="active"><a href="#">Home</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="">
+					Menu 100
+					<span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">List item</a></li>
+					<li><a href="#">List item</a></li>
+					<li><a href="#">List item</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Thing 1</a></li>
+			<li><a href="#">Thing 2</a></li>
+		</ul>
+
+		<h3>Centered Tabs and Pills</h3>
+		<ul class="nav nav-tabs nav-justified">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">Marley</a></li>
+			<li><a href="#">Belle</a></li>
+		</ul><br>
+		<ul class="nav nav-pills nav-justified">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">Marley</a></li>
+			<li><a href="#">Belle</a></li>
+		</ul>
+
+		<h3>Dynamic Tabs</h3>
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+			<li><a data-toggle="tab" href="#tab1">Tab 1</a></li>
+			<li><a data-toggle="tab" href="#tab2">Tab 2</a></li>
+			<li><a data-toggle="tab" href="#tab3">Tab 3</a></li>
+		</ul>
+		<div class="tab-content">
+			<div id="home" class="tab-pane fade in active">
+				<h4>Home</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+			</div>
+			<div id="tab1" class="tab-pane fade">
+				<h4>Tab 1</h4>
+				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div id="tab2" class="tab-pane fade">
+				<h4>Tab 2</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div id="tab3" class="tab-pane fade">
+				<h4>Tab 3</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+
+		<h3>Toggleable / Dynamic Pills</h3>
+		<ul class="nav nav-pills">
+			<li class="active"><a data-toggle="pill" href="#home_pill">Home</a></li>
+			<li><a data-toggle="pill" href="#pill1">Pill 1</a></li>
+			<li><a data-toggle="pill" href="#pill2">Pill 2</a></li>
+			<li><a data-toggle="pill" href="#pill3">Pill 3</a></li>
+		</ul>
+		<div class="tab-content">
+			<div id="home_pill" class="tab-pane fade in active">
+				<h4>Home</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+			</div>
+			<div id="pill1" class="tab-pane fade">
+				<h4>Pill 1</h4>
+				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div id="pill2" class="tab-pane fade">
+				<h4>Pill 2</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div id="pill3" class="tab-pane fade">
+				<h4>Pill 3</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
 		<br><a href="#top">Back to Top</a>
 		<hr style="border: .5px solid grey">
 
