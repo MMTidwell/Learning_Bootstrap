@@ -88,6 +88,7 @@
 		<div id="typography">
 			<h1>Typography:</h1>
 			<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_css_text.asp" target="_blank">Additional info of Typography</a>
+
 			<h3><em>h3</em> Heading<small>  &ensp; with a <em>smaller</em> secondary text</small></h3>
 			
 			<p>The <mark style="background-color: lightblue"><em>mark tag</em></mark> will highlight the specified text, changing the background-color will change the color of the highlighted area.</p>
@@ -1705,9 +1706,84 @@
 		<hr style="border: .5px solid grey">
 	<div class="container"> <!-- Reopening container div in order to have the flow of the notes better placed. -->
 
-
 <!-- FORMS -->
-		<h1 id="forms">Forms</h1>
+		<h1 id="forms">Forms</h1><br>
+
+		<h3>Basic Form Layout <small>(Vertical)</small></h3>
+		<form>
+			<div class="form-group">
+				<label for="email">Email Address:</label>
+				<input type="email" class="form-control" id="email">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Password:</label>
+				<input type="password" class="form-control" id="pwd">
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"> Remember Me!</label>
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+
+		<h3>Inline Form</h3>
+		<form class="form-inline">
+			<div class="form-group">
+				<label for="email">Email Address:</label>
+				<input type="email" class="form-control"  id="email">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Password:</label>
+				<input type="password" class="form-control" id="pwd">
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"> Remember Me!</label>
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+
+		<h3>Inline Form with Screen Readers</h3>
+		<form class="form-inline">
+			<div class="form-group">
+				<label class="sr-only" for="email">Email Address:</label>
+				<input type="email" class="form-control"  id="email">
+			</div>
+			<div class="form-group">
+				<label class="sr-only" for="pwd">Password:</label>
+				<input type="password" class="form-control" id="pwd">
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox"> Remember Me!</label>
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+
+		<h3>Horizontal Form</h3>
+		<form class="form-horizontal">
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="email">Email:</label>
+				<div class="col-sm-10">
+					<input type="email" class="form-control" id="email" placeholder="Enter Email">
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="pwd">Password:</label>
+				<div class="col-sm-10">
+					<input type="passwrod" class="form-control" id="pwd" placeholder="Enter Password">
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<div class="checkbox">
+						<label><input type="checkbox"> Remember Me!</label>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-success">Submit</button>
+				</div>
+			</div>
+		</form>
 		<br><a href="#top">Back to Top</a>
 		<hr style="border: .5px solid grey">
 
