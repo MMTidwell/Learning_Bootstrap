@@ -2425,6 +2425,18 @@
 
 <!-- TOOL TIP -->
 		<h1 id="tool_tip">Tool Tip</h1>
+		<a href="https://www.w3schools.com/bootstrap/bootstrap_ref_js_tooltip.asp" target="_blank">Additional info for Tool Tips</a> <br>
+		<small><em>TOOL TIP SCRIPT MUST BE ADDED!</em></small><br>
+		
+		<h3>Basic Tool Tip</h3>
+		<button href="#" type="button" class="btn btn-success" data-toggle="tooltip" title="Hey Its a Tool Tip">Hover Over Me!</button>
+
+		<h3>Positioning of Tool Tip</h3>
+		<button href="#" type="button" class="btn btn-default" data-toggle="tooltip" title="Hey There" data-placement="top">Top</button>
+		<button href="#" type="button" class="btn btn-warning" data-toggle="tooltip" title="Hey There" data-placement="bottom">Bottom</button>
+		<button href="#" type="button" class="btn btn-danger" data-toggle="tooltip" title="Hey There" data-placement="left">Left</button>
+		<button href="#" type="button" class="btn btn-primary" data-toggle="tooltip" title="Hey There" data-placement="right">Right</button>
+		<button href="#" type="button" class="btn btn-info" data-toggle="tooltip" title="Hey There" data-placement="auto">Auto</button>
 		<br><a href="#top">Back to Top</a>
 		<hr style="border: .5px solid grey">
 
@@ -2442,6 +2454,13 @@
 		<h1 id="affix">Affix</h1>
 		<br><a href="#top">Back to Top</a>
 		<hr style="border: .5px solid grey">
+
+<!-- Script used for Tool Tips section -->
+<script>
+	$(document).ready(function() {
+		$('[data-toggle="tooltip"]').tooltip();
+	});
+</script>
 
 </body>
 </html>
